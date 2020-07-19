@@ -15,14 +15,14 @@ a:hover {
   color: #40514e;
   text-decoration: none;
 }
-hr {
+/* hr {
   border-style: none;
   border-top-style: dotted;
   border-color: #eaf6f6;
   border-width: 7px;
   width: 4%;
-  /* margin: 50px auto; */
-}
+  margin: 50px auto;
+} */
 p {
   line-height: 2;
 }
@@ -91,9 +91,6 @@ h3 {
   padding-top: 100px;
 }
 
-.middle-container {
-  /* margin: 100px 0; */
-}
 .contact-me {
   width: 50%;
   margin: 100px auto;
@@ -141,10 +138,7 @@ h3 {
   float: right;
   margin-left: 30px;
 }
-/* .code-skill-descr {
-  clear: left;
-}
-*/
+
 .design-skill-descr {
   margin-bottom: 0;
 }
@@ -161,7 +155,6 @@ h3 {
   color: #eaf6f6;
   font-size: 0.75rem;
   margin: 20px 0;
-  /* padding: 20px 0; */
 }
 
 #introduction {
@@ -184,7 +177,6 @@ h3 {
 #web-design {
   background-color: #ffffff;
   padding: 80px;
-  /* padding-bottom: 80px; */
 }
 #contact-me {
   background-color: #cafff5;
@@ -218,7 +210,7 @@ h3 {
 }
 .div_title1 {
   padding: 16px 70px;
-  /* background-color: #111111; */
+  /* background-color: rgba(255, 255, 255, 0.6); */
   color: #11999e;
   font-size: 26px;
   font-family: "Carme", sans-serif;
@@ -227,12 +219,18 @@ h3 {
   margin-top: 0px !important;
   margin-bottom: 40px;
   display: inline-block;
-  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 8px 0px inset,
-    rgba(0, 0, 0, 0.1) 0px 6px 20px 0px inset; */
-  /* -webkit-box-shadow: 0px 2px 12px 3px rgba(69, 65, 69, 1);
-  -moz-box-shadow: 0px 2px 12px 3px rgba(69, 65, 69, 1);
-  box-shadow: 0px 2px 12px 3px rgba(69, 65, 69, 1); */
+  box-shadow: rgba(24, 209, 226, 0.15) 0px 2px 2px 0px inset,
+    rgba(24, 209, 226, 0.15) 0px 3px 2px 0px inset;
+  -webkit-box-shadow: 0px 2px 6px 2px rgba(69, 65, 69, 1);
+  -moz-box-shadow: 0px 2px 6px 2px rgba(69, 65, 69, 1);
+  box-shadow: 0px 2px 6px 2px rgba(69, 65, 69, 1);
 }
+
+.div_title1:hover {
+  background-color: #ddf3f5;
+  color: tomato;
+}
+
 .picks_div {
   max-width: 100%;
   height: 200px;
@@ -350,3 +348,42 @@ h3 {
   text-decoration: none;
 }
 /* CONTACT ME BUTTON STYLE */
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 1028px) {
+  .fliping-laptop {
+    height: 5%;
+    position: absolute;
+    right: 60px;
+    top: 60px;
+  }
+  .bottom-cloud {
+    height: 10%;
+    position: absolute;
+    left: 60px;
+    bottom: 450px;
+  }
+  .profile p {
+    width: 55%;
+    margin: 0 auto;
+  }
+  .contact-gif {
+    display: none;
+  }
+  .contact-me {
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+  }
+  h2 {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    margin-top: 1.5rem;
+  }
+  .footer-link {
+    padding: 20px auto;
+  }
+}
