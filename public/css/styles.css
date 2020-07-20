@@ -230,7 +230,8 @@ h3 {
 }
 
 .div_title1:hover {
-  background-color: #00909e;
+  background-image: url("../images/motion-ln.png");
+  /* background-color: #00909e; */
   color: #dae1e7;
 }
 .picks {
