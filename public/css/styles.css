@@ -25,6 +25,7 @@ a:hover {
 } */
 p {
   line-height: 2;
+  color: #dae1e7;
 }
 h1 {
   color: #66bfbf;
@@ -71,7 +72,7 @@ h3 {
 /* Navigation styles */
 .navbar {
   margin: 0 0 2rem 0;
-  background-color: #cafff5;
+  background-color: #27496d;
 }
 
 .nav-item {
@@ -86,7 +87,7 @@ h3 {
   font-family: "Montserrat-Light";
 }
 .top-container {
-  background-color: #e4f9f5;
+  background-color: #142850;
   position: relative;
   padding-top: 100px;
 }
@@ -98,7 +99,7 @@ h3 {
 }
 
 .bottom-container {
-  background-color: #e4f9f5;
+  background-color: #142850;
   padding: 50px 0 20px;
 }
 .footer-link {
@@ -158,7 +159,7 @@ h3 {
 }
 
 #introduction {
-  background-color: #e4f9f5;
+  background-color: #142850;
   padding-bottom: 80px;
   margin-top: 7.5rem;
 }
@@ -179,7 +180,7 @@ h3 {
   padding: 80px;
 }
 #contact-me {
-  background-color: #cafff5;
+  background-color: #27496d;
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -227,8 +228,8 @@ h3 {
 }
 
 .div_title1:hover {
-  background-color: #ddf3f5;
-  color: tomato;
+  background-color: #00909e;
+  color: #dae1e7;
 }
 
 .picks_div {
